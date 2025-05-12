@@ -3,23 +3,20 @@ import StyledMain from "../StyledMain";
 import StyledTitle from "../Title";
 
 const ExperiencesContainer = styled.div`
-    width: 100%;
     display: flex;
-    flex-direction: row;
     padding: 2vh 2vw;
+    flex: 1;
+
+    @media screen and (max-width: 1000px) {
+        padding: 2vh 4vw;
+        flex-direction: column;
+    }
 `;
 
 const ExperiencesList = styled.div`
-    align-self: center;
-    width: 60%;
-    font-size: calc(2.5px + 2.5vw);
-
-    @media screen and (max-width: 1000px) {
-        align-self: center;
-        width: 90%;
-        margin: 1vh 1vw;
-        font-size: calc(2.75px + 2.75vw);
-    }
+    max-width: 800pc;
+    width: 100%;
+    font-size: clamp(1rem, 2.5vw, 1.5rem)
 `;
 
 export default function Experiences() {
