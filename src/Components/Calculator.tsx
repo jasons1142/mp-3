@@ -22,14 +22,14 @@ const CalculatorButtons = styled.div`
     justify-content: center;
 `;
 
-const OutputContainer = styled.div`
-    text-align: center;
-    margin-top: 1vh;
-`;
-
 const Output = styled.p<{ isNegative: boolean }>`
     font-size: calc(14px + 1vw);
     color: ${({ isNegative }) => (isNegative ? "red" : "#2c3e50")};
+`;
+
+const OutputContainer = styled.div`
+    text-align: center;
+    margin-top: 1vh;
 `;
 
 export default function Calculator() {

@@ -4,7 +4,7 @@ const StyledMain = styled.main`
     display: flex;
     flex-direction: column;
     width: 70%;
-    background-color: blue;
+    background-color: red;
 
     @media screen and (max-width: 1000px) {
         display: flex;
