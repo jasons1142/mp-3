@@ -32,15 +32,15 @@ const StyledNavList = styled.ul`
 `;
 
 const StyledListItem = styled.li`
-    font-size: calc(3px + 3vw);
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
     width: 90%;
     background-color: #334155;
     padding: 2vh 0;
     margin: 5vh auto;
     border-radius: 5px;
-
+    
     @media screen and (max-width: 750px) {
-        font-size: calc(2px + 1.5vw);
+        font-size: clamp(0.875rem, 2vw, 1.25rem);
         background-color: #334155;
         padding: 1% .5%;
         margin: 1% .5%;
