@@ -20,7 +20,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   position: relative;
-  background-color: red;
+  background-color: #f8fafc;
 
   @media screen and (max-width: 750px) {
     width: 100%;

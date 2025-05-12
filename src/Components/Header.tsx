@@ -6,8 +6,8 @@ const StyledHeader = styled.header`
     flex-direction: column;
     padding: 1vh 1vw;
     margin: 0;
-    background-color: gray;
-    color: blue;
+    background-color: #0a192f;
+    color: white;
 
     @media screen and (max-width: 750px) {
         margin: 0;

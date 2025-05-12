@@ -44,6 +44,7 @@ const HomeTextContainer = styled.div`
 const HomeText = styled.p`
     margin: 0 1vw;
     font-size: calc(2px + 2vw);
+    color: #1f2937
 
     @media screen and (max-width: 1000px) {
         margin: 2% 2%;
