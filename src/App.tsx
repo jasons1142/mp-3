@@ -19,12 +19,10 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
-  position: relative;
+  min-height: 100vh;
   background-color: #f8fafc;
 
   @media screen and (max-width: 750px) {
-    width: 100%;
-    height: 100vh;
     flex-direction: column;
   }
 `;
