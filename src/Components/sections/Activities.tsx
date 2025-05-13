@@ -2,22 +2,31 @@ import styled from "styled-components";
 import StyledMain from "../StyledMain";
 import StyledTitle from "../Title";
 
-const ActivitiesTextContainer = styled.div`
+const ActivitiesContainer = styled.div`
+    width: 100%;
     display: flex;
+    flex-direction: row;
     padding: 2vh 2vw;
-    flex: 1;
 
     @media screen and (max-width: 1000px) {
-        padding: 2vh 4vw;
+        width: 100%;
+        display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 `;
 
-const ActivitiesText = styled.p`
-    font-size: 40px;
+const ActivitiesList = styled.div`
+    align-self: center;
+    width: 60%;
+    margin: 1vh 1vw;
+    font-size: calc(2px + 2vw);
 
     @media screen and (max-width: 1000px) {
-        font-size: 40px;
+        align-self: center;
+        width: 90%;
+        margin: 1vh 1vw;
+        font-size: calc(2.5px + 2.5vw);
     }
 `;
 
@@ -25,14 +34,20 @@ export default function Activities() {
     return (
         <StyledMain>
             <StyledTitle>Activities</StyledTitle>
-                <ActivitiesTextContainer>
-                    <ActivitiesText>
-                        Some of my educational activities are Iota Phi Theta Fraternity,
-                        Incorporate, NSBE, and ColorStack. For my fraternity I serve as the 
-                        chapter president and for NSBE and ColorStack I am an active member 
-                        and participant in all events.
-                    </ActivitiesText>
-                </ActivitiesTextContainer>
+            <ActivitiesContainer>
+                <ActivitiesList>
+                <ul>
+                    <li>Iota Phi Theta Fraternity, Incorporated
+                        <ul>
+                            <li>Chapter Present 2025-</li>
+                            <li>Coordinated chapter meetings and chapter sanctioned events</li>
+                        </ul>
+                    </li>
+                    <li>NSBE</li>
+                    <li>ColorStack</li>
+                </ul>
+                </ActivitiesList>
+            </ActivitiesContainer>
         </StyledMain>
     )
 }

@@ -26,7 +26,7 @@ const ReferencesList = styled.div`
         align-self: center;
         width: 90%;
         margin: 1vh 1vw;
-        font-size: calc(4px + 4vw);
+        font-size: calc(2.5px + 2.5vw);
 }
 `;
 

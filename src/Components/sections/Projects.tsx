@@ -26,7 +26,7 @@ const ProjectsList = styled.div`
         align-self: center;
         width: 90%;
         margin: 1vh 1vw;
-        font-size: calc(3.5px + 3.5vw);
+        font-size: calc(2.5px + 2.5vw);
     }
 `;
 
@@ -41,6 +41,12 @@ export default function Projects() {
                         <ul>
                             <li>Engineered Chrome extension deploying JavaScript and Chrome API to integrate with Gradescope</li>
                             <li>Designed user-friendly popup interface using HTML, CSS, and JavaScript</li>
+                        </ul>
+                    </li>
+                    <br></br>
+                    <li>BlackBalannce
+                        <ul>
+                            <li></li>
                         </ul>
                     </li>
                 </ul>
