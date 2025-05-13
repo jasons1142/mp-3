@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import StyledMain from "../StyledMain";
 import StyledTitle from "../Title";
-import Calculator from "../Calculator";
 
 const ProjectsContainer = styled.div`
     width: 100%;
