@@ -44,6 +44,14 @@ export default function Projects() {
                         </ul>
                     </li>
                     <br></br>
+                    <li>Url Shortener
+                        <ul>
+                            <li>
+                                <a href = "https://mp-5-wolr.vercel.app/" target = "_blank">Check It Out!</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <br></br>
                     <li>BlackBalannce
                         <ul>
                             <li></li>
