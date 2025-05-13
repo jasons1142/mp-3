@@ -44,11 +44,6 @@ export default function Projects() {
                             <li>Designed user-friendly popup interface using HTML, CSS, and JavaScript</li>
                         </ul>
                     </li>
-                    <li> Calculator
-                        <ul>
-                            <li><Calculator /></li>
-                        </ul>
-                    </li>
                 </ul>
                 </ProjectsList>
             </ProjectsContainer>
